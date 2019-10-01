@@ -310,6 +310,11 @@ PRODUCT_ENFORCE_RRO_EXCLUDED_OVERLAYS += $(LOCAL_PATH)/overlay/packages/apps/Car
 # Perf
 PRODUCT_PACKAGES += \
     libqti-perfd-client
+    
+# Preopt critical applications
+PRODUCT_DEXPREOPT_SPEED_APPS += \
+    Settings \
+    SystemUI
 
 # Power
 PRODUCT_PACKAGES += \
