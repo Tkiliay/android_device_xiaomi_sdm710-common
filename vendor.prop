@@ -144,7 +144,6 @@ drm.service.enabled=true
 debug.sf.auto_latch_unsignaled=0
 debug.sf.enable_hwc_vds=1
 debug.sf.hw=0
-debug.sf.latch_unsignaled=1
 persist.sys.sf.native_mode=2
 ro.hardware.egl=adreno
 ro.hardware.vulkan=adreno
