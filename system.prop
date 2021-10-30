@@ -47,7 +47,6 @@ ro.vendor.qti.va_aosp.support=1
 # Graphics
 debug.sf.disable_backpressure=1
 debug.sf.enable_hwc_vds=1
-debug.sf.auto_latch_unsignaled=1
 
 # LMKD/PSI
 ro.lmk.use_psi=true
