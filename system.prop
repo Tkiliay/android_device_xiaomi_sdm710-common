@@ -4,6 +4,9 @@ vendor.camera.aux.packagelist=org.codeaurora.snapcam,com.android.camera,org.line
 # Fwk detect
 ro.vendor.qti.va_aosp.support=1
 
+# VSync
+debug.cpurend.vsync=false
+
 # Media
 media.settings.xml=/vendor/etc/media_profiles_vendor.xml
 
