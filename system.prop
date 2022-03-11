@@ -4,11 +4,6 @@ persist.vendor.qti.inputopts.enable=true
 persist.vendor.qti.inputopts.movetouchslop=0.6
 ro.qcom.adreno.qgl.ShaderStorageImageExtendedFormats=0
 
-# Higher fling velocities
-# for smoother scrolling and better responsiveness
-ro.min.fling_velocity=160
-ro.max.fling_velocity=20000
-
 # Audio
 audio.deep_buffer.media=true
 audio.offload.buffer.size.kb=32
