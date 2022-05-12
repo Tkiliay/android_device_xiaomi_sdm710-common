@@ -9,3 +9,6 @@ media.settings.xml=/vendor/etc/media_profiles_vendor.xml
 
 # RIL
 DEVICE_PROVISIONED=1
+
+# Disable Skia tracing by default
+debug.hwui.skia_atrace_enabled=false
