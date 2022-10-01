@@ -26,14 +26,4 @@
     <!-- Should we vibrate on an icon animation of the shelf. This should only be active if the
      vibrator is capable of subtle vibrations -->
     <bool name="config_vibrateOnIconAnimation">true</bool>
-
-        <!-- Color of the UDFPS pressed view -->
-    <color name="config_udfpsColor">#ff00ff00</color>
-
-    <!-- HBM type of UDFPS overlay.
-            0 - GLOBAL HBM
-            1 - LOCAL HBM
-    -->
-    <integer name="config_udfpsHbmType">0</integer>
-
 </resources>
