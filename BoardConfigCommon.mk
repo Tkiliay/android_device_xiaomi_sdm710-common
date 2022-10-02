@@ -78,6 +78,7 @@ BOARD_KERNEL_SEPARATED_DTBO := true
 BOARD_MKBOOTIMG_ARGS += --header_version $(BOARD_BOOT_HEADER_VERSION)
 TARGET_KERNEL_SOURCE := kernel/xiaomi/sdm710
 TARGET_KERNEL_CONFIG := sdm670-perf_defconfig xiaomi/sdm710-common.config
+TARGET_KERNEL_CLANG_VERSION := proton
 
 BOARD_KERNEL_CMDLINE += androidboot.selinux=permissive
 SELINUX_IGNORE_NEVERALLOWS := true
