@@ -80,6 +80,7 @@ TARGET_KERNEL_SOURCE := kernel/xiaomi/sdm710
 TARGET_KERNEL_CONFIG := sdm670-perf_defconfig xiaomi/sdm710-common.config
 
 BOARD_KERNEL_CMDLINE += androidboot.selinux=permissive
+SELINUX_IGNORE_NEVERALLOWS := true
 
 # Partitions
 BOARD_FLASH_BLOCK_SIZE := 262144 # (BOARD_KERNEL_PAGESIZE * 64)
