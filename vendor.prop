@@ -219,6 +219,14 @@ telephony.lteOnCdmaDevice=1
 # RCS
 persist.rcs.supported=0
 
+# Fingerprint
+ro.hardware.fp.fod=true
+persist.vendor.sys.fp.fod.location.X_Y=448,1938
+persist.vendor.sys.fp.fod.size.width_height=184,185
+ro.hardware.fp.udfps=true
+persist.vendor.sys.fp.udfps.location.X_Y=448,1938
+persist.vendor.sys.fp.udfps.size.width_height=184,185
+
 # USB
 vendor.usb.diag.func.name=diag
 vendor.usb.use_ffs_mtp=0
