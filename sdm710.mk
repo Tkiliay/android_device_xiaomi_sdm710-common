@@ -441,6 +441,3 @@ PRODUCT_BOOT_JARS += \
 
 # Inherit the proprietary files
 $(call inherit-product, vendor/xiaomi/sdm710-common/sdm710-common-vendor.mk)
-
-#Soter service
-TARGET_SUPPORT_SOTER := true
