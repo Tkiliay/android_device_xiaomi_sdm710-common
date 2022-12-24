@@ -388,12 +388,6 @@ PRODUCT_SOONG_NAMESPACES += \
 PRODUCT_USE_PROFILE_FOR_BOOT_IMAGE := true
 PRODUCT_DEX_PREOPT_BOOT_IMAGE_PROFILE_LOCATION := frameworks/base/config/boot-image-profile.txt
 
-# Improve scrolling
-PRODUCT_PROPERTY_OVERRIDES += \
-    persist.sys.scrollingcache=0 \
-    ro.min.fling_velocity=160 \
-    ro.max.fling_velocity=20000
-
 # Telephony
 PRODUCT_PACKAGES += \
     ims-ext-common \
