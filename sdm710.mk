@@ -49,12 +49,6 @@ PRODUCT_COPY_FILES += \
     frameworks/native/data/etc/android.software.verified_boot.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/android.software.verified_boot.xml \
     frameworks/native/data/etc/android.software.vulkan.deqp.level-2020-03-01.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/android.software.vulkan.deqp.level.xml \
 
-# Additional SurfaceFlinger Properties
-PRODUCT_PROPERTY_OVERRIDES += \
-    ro.surface_flinger.enable_layer_caching=false \
-    debug.sf.enable_planner_prediction=false \
-    debug.sf.disable_client_composition_cache=1
-
 # APEX
 PRODUCT_COMPRESSED_APEX := false
 
