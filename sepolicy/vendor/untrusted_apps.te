@@ -1,1 +1,0 @@
-allow untrusted_app_29 default_android_service:service_manager { find };
