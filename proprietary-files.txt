@@ -235,7 +235,7 @@ vendor/lib64/vendor.qti.hardware.qseecom@1.0.so
 # DRM (OEM Crypto API)
 vendor/lib64/libcpion.so
 vendor/lib64/libminkdescriptor.so
-vendor/lib64/liboemcrypto.so
+vendor/lib64/liboemcrypto.so|5664dd1ffd9499dc53eecd90b46d712b21a28b78
 vendor/lib64/libtrustedapploader.so
 
 # DRM (Widevine)
@@ -488,7 +488,7 @@ vendor/lib/libmmosal.so
 vendor/lib64/libmmosal.so
 
 # Media configs
-odm/etc/media_profiles_V1_0.xml
+odm/etc/media_profiles_V1_0.xml|981dd4a7ffb9020aa1142930ff3ae6d07bda12aa
 vendor/etc/media_codecs.xml
 vendor/etc/media_codecs_performance.xml
 vendor/etc/media_codecs_performance_v1.xml
@@ -503,15 +503,6 @@ vendor/etc/system_properties.xml
 vendor/bin/mlid
 vendor/lib/libminksocket.so
 vendor/lib64/libminksocket.so
-
-# Mlipay
-vendor/bin/mlipayd@1.1
-vendor/etc/init/vendor.xiaomi.hardware.mlipay@1.1-service.rc
--vendor/etc/vintf/manifest/manifest_vendor.xiaomi.hardware.mlipay.xml
-vendor/lib64/libmlipay.so
-vendor/lib64/libmlipay@1.1.so
-vendor/lib64/vendor.xiaomi.hardware.mlipay@1.0.so
-vendor/lib64/vendor.xiaomi.hardware.mlipay@1.1.so
 
 # Neural networks
 vendor/bin/hw/android.hardware.neuralnetworks@1.3-service-qti
@@ -765,12 +756,12 @@ vendor/lib64/vendor.qti.hardware.scve.panorama@1.0.so
 # SECCOMP policy
 vendor/etc/seccomp_policy/mediacodec.policy
 
-# Soter
--app/SoterService/SoterService.apk
-vendor/bin/hw/vendor.qti.hardware.soter@1.0-service
-vendor/etc/init/vendor.qti.hardware.soter@1.0-service.rc
-vendor/lib64/hw/vendor.qti.hardware.soter@1.0-impl.so
-vendor/lib64/vendor.qti.hardware.soter@1.0.so
+# Soter - from OnePlus6 - RKQ1.201217.002/2106301530
+-system_ext/app/SoterService/SoterService.apk|30b8c90bba5d37e35a43d8382504cf1419b33999
+vendor/bin/hw/vendor.qti.hardware.soter@1.0-service|8e315a85eeeb94a51f1533c80212d2fc0ec88760
+vendor/etc/init/vendor.qti.hardware.soter@1.0-service.rc|bc7a8a2d9f81877802c449a5df416bddcf0e8597
+vendor/lib64/hw/vendor.qti.hardware.soter@1.0-impl.so|268428d75152b169a9556b094a51eb0de8990a71
+vendor/lib64/vendor.qti.hardware.soter@1.0.so|9424d8a625bbc9e399597ecb0ac80402fae7782c
 
 # Thermal engine
 vendor/bin/thermal-engine
