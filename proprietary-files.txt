@@ -756,12 +756,12 @@ vendor/lib64/vendor.qti.hardware.scve.panorama@1.0.so
 # SECCOMP policy
 vendor/etc/seccomp_policy/mediacodec.policy
 
-# Soter - from OnePlus6 - RKQ1.201217.002/2106301530
--system_ext/app/SoterService/SoterService.apk|30b8c90bba5d37e35a43d8382504cf1419b33999
-vendor/bin/hw/vendor.qti.hardware.soter@1.0-service|8e315a85eeeb94a51f1533c80212d2fc0ec88760
-vendor/etc/init/vendor.qti.hardware.soter@1.0-service.rc|bc7a8a2d9f81877802c449a5df416bddcf0e8597
-vendor/lib64/hw/vendor.qti.hardware.soter@1.0-impl.so|268428d75152b169a9556b094a51eb0de8990a71
-vendor/lib64/vendor.qti.hardware.soter@1.0.so|9424d8a625bbc9e399597ecb0ac80402fae7782c
+# Soter
+-app/SoterService/SoterService.apk|e53c6d8af837963485d2d6a850a97f7a4db28dd9
+vendor/bin/hw/vendor.qti.hardware.soter@1.0-service
+vendor/etc/init/vendor.qti.hardware.soter@1.0-service.rc
+vendor/lib64/hw/vendor.qti.hardware.soter@1.0-impl.so
+vendor/lib64/vendor.qti.hardware.soter@1.0.so
 
 # Thermal engine
 vendor/bin/thermal-engine
@@ -895,3 +895,21 @@ vendor/lib/libwfdutils_proprietary.so
 vendor/lib/vendor.qti.hardware.wifidisplaysession@1.0.so
 vendor/lib/vendor.qti.hardware.wifidisplaysessionl@1.0-halimpl.so
 vendor/lib64/libwfdhdcpcp.so
+
+# Xiaomi
+vendor/bin/hw/android.hardware.ir@1.0-service.xiaomi
+vendor/bin/mlipayd@1.1
+vendor/bin/mtd@1.2
+vendor/etc/init/android.hardware.ir@1.0-service.xiaomi.rc
+vendor/etc/init/vendor.xiaomi.hardware.mlipay@1.1-service.rc
+vendor/etc/init/vendor.xiaomi.hardware.mtdservice@1.2-service.rc
+-vendor/etc/vintf/manifest/android.hardware.ir@1.0-service.xiaomi.xml
+-vendor/etc/vintf/manifest/manifest_vendor.xiaomi.hardware.mlipay.xml
+-vendor/etc/vintf/manifest/manifest_vendor.xiaomi.hardware.mtdservice.xml
+vendor/lib64/libmlipay.so
+vendor/lib64/libmlipay@1.1.so
+vendor/lib64/vendor.xiaomi.hardware.mlipay@1.0.so
+vendor/lib64/vendor.xiaomi.hardware.mlipay@1.1.so
+vendor/lib64/vendor.xiaomi.hardware.mtdservice@1.0.so
+vendor/lib64/vendor.xiaomi.hardware.mtdservice@1.1.so
+vendor/lib64/vendor.xiaomi.hardware.mtdservice@1.2.so
