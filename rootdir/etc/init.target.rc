@@ -147,6 +147,9 @@ on boot
     setprop vendor.usb.dpl.inst.name "dpl"
     setprop vendor.usb.qdss.inst.name "qdss"
 
+# default country code
+    setprop ro.boot.wificountrycode 00
+
 #pd-mapper
 service vendor.pd_mapper /vendor/bin/pd-mapper
     class core
