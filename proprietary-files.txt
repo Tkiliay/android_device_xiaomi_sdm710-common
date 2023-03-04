@@ -1,5 +1,5 @@
-# Unpinned blobs from pyxis-user 11 RKQ1.200826.002 V12.5.3.0.RFCEUXM release-keys
-# grus: grus-user 11 RKQ1.200826.002 V12.5.1.0.RFBMIXM release-keys
+# Unpinned blobs from grus-user 11 RKQ1.200826.002 V12.5.4.0.RFBCNXM release-keys
+# pyxis: pyxis-user 11 RKQ1.200826.002 V12.5.2.0.RFCMIXM release-keys
 
 # ADSP
 vendor/bin/adsprpcd
@@ -19,9 +19,7 @@ vendor/lib/libacdbrtac.so
 vendor/lib/libadiertac.so
 vendor/lib/libaudcal.so
 vendor/lib/libqtigef.so
-
-# Audio - from grus
-vendor/lib/libacdbloader.so|d1a0c21891a0aead55fd41e430ac10347b5aebab
+vendor/lib/libacdbloader.so
 
 # Audio FX modules
 vendor/lib/soundfx/libasphere.so
@@ -224,8 +222,8 @@ vendor/lib64/vendor.qti.hardware.qseecom@1.0.so
 # DRM (OEM Crypto API)
 vendor/lib64/libcpion.so
 vendor/lib64/libminkdescriptor.so
-vendor/lib64/liboemcrypto.so
 vendor/lib64/libtrustedapploader.so
+vendor/lib64/liboemcrypto.so|5664dd1ffd9499dc53eecd90b46d712b21a28b78
 
 # DRM (Widevine)
 vendor/bin/hw/android.hardware.drm@1.3-service.widevine
@@ -241,12 +239,12 @@ vendor/etc/seccomp_policy/vendor.qti.hardware.dsp.policy
 vendor/lib/vendor.qti.hardware.dsp@1.0.so
 vendor/lib64/vendor.qti.hardware.dsp@1.0.so
 
-# FM
-system_ext/lib64/fm_helium.so
-system_ext/lib64/libfm-hci.so
-system_ext/lib64/vendor.qti.hardware.fm@1.0.so
-vendor/lib64/hw/vendor.qti.hardware.fm@1.0-impl.so
-vendor/lib64/vendor.qti.hardware.fm@1.0.so
+# FM - from pyxis
+system_ext/lib64/fm_helium.so|55ef376cc802574df92025bebaba1cebcc74a918
+system_ext/lib64/libfm-hci.so|0cfbf3d84724428721973cc7ad22f5d1e1368591
+system_ext/lib64/vendor.qti.hardware.fm@1.0.so|4a2522113d6b737a87d3b43233f1afa94d9e45ad
+vendor/lib64/hw/vendor.qti.hardware.fm@1.0-impl.so|1d191661a6aee776e3b2a851354dc2cbc819bfef
+vendor/lib64/vendor.qti.hardware.fm@1.0.so|17e86e9a2054db733d955fcf1066f6e06a44fb21
 
 # Graphics (Adreno)
 vendor/lib/egl/eglSubDriverAndroid.so
@@ -454,7 +452,7 @@ vendor/lib/libgcs.so
 vendor/lib/libjnihelper.so
 vendor/lib/liblistensoundmodel2.so
 vendor/lib/libmulawdec.so
-vendor/lib/librice.so
+vendor/lib/librice.so|ab579661de2ed5c60423c783820882c71f87a7ac
 vendor/lib/libsmwrapper.so
 
 # Media
@@ -462,7 +460,7 @@ vendor/lib/libmmosal.so
 vendor/lib64/libmmosal.so
 
 # Media configs
-odm/etc/media_profiles_V1_0.xml
+odm/etc/media_profiles_V1_0.xml|981dd4a7ffb9020aa1142930ff3ae6d07bda12aa
 vendor/etc/media_codecs.xml
 vendor/etc/media_codecs_performance.xml
 vendor/etc/media_codecs_performance_v1.xml
@@ -490,7 +488,7 @@ vendor/etc/init/vendor.xiaomi.hardware.mtdservice@1.2-service.rc
 -vendor/etc/vintf/manifest/manifest_vendor.xiaomi.hardware.mtdservice.xml
 vendor/lib64/libmfido.so
 vendor/lib64/libmt@1.2.so
-vendor/lib64/libwvkeybox.so
+vendor/lib64/libwvkeybox.so|2b031c90361af704c7908a504a4c8eff1a6288f0
 vendor/lib64/vendor.xiaomi.hardware.mfidoca@1.0.so
 
 # Neural networks
@@ -715,7 +713,7 @@ vendor/lib/vendor.qti.hardware.scve.panorama@1.0.so
 vendor/etc/seccomp_policy/mediacodec.policy
 
 # Soter
--app/SoterService/SoterService.apk
+-app/SoterService/SoterService.apk:vendor/app/SoterService/SoterService.apk
 vendor/bin/hw/vendor.qti.hardware.soter@1.0-service
 vendor/etc/init/vendor.qti.hardware.soter@1.0-service.rc
 vendor/lib64/hw/vendor.qti.hardware.soter@1.0-impl.so
