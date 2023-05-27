@@ -41,6 +41,9 @@ function configure_zram_parameters() {
         let zRamSizeMB=4096
     fi
 
+    # Enable zstd zram compression for targets.
+    echo zstd > /sys/block/zram0/comp_algorithm
+
     if [ -f /sys/block/zram0/disksize ]; then
         if [ -f /sys/block/zram0/use_dedup ]; then
             echo 1 > /sys/block/zram0/use_dedup
