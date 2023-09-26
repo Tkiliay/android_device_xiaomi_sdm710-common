@@ -86,6 +86,10 @@ vendor.audio.voice.receiver.status=off
 vendor.audio.volume.headset.gain.depcal=true
 vendor.audio_hal.period_size=192
 
+# Audio (Dolby)
+persist.vendor.audio_fx.current=dolby
+ro.vendor.dolby.dax.version=DS1_2.2.0.0_r1
+
 # Bluetooth
 bluetooth.device.class_of_device=90,2,12
 bluetooth.hardware.power.operating_voltage_mv=3300
@@ -171,6 +175,7 @@ ro.lmk.kill_heaviest_task=true
 debug.stagefright.omx_default_rank=0
 vendor.media.target.version=1
 vendor.sys.media.target.version=1
+debug.stagefright.omx_default_rank.sw-audio=16
 
 # Netflix custom property
 ro.netflix.bsp_rev=Q670-14477-1
