@@ -43,8 +43,8 @@ vendor/lib64/vendor.dolby.hardware.dms@1.0-impl.so|7afb6907a83aa7c9faa7308ae5b39
 vendor/lib64/vendor.dolby.hardware.dms@1.0.so|f3593ce869d036f98ddc7fc8223a8b55dcf0ca36
 
 # Audio (Dolby VNDK)
--vendor/lib/libstagefright_foundation-v33.so
--vendor/lib64/libstagefright_foundation-v33.so
+-vendor/lib/libstagefright_foundation-v33.so|d5abb8754e2efccae2706cbfc197f0f8feeffba3
+-vendor/lib64/libstagefright_foundation-v33.so|aaf94ecdcdd205d5d9bd443607308666acc4ee05
 
 # Bluetooth
 vendor/bin/hw/android.hardware.bluetooth@1.0-service-qti
